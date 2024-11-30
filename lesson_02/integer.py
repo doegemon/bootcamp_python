@@ -3,7 +3,7 @@ n1 = int(input('Enter the first number: '))
 n2 = int(input('Enter the second number: '))
 sum = n1 + n2
 
-print(f'The sum of the two number is: {sum}')
+print(f'The sum of the two numbers is: {sum}')
 
 # II. Ask the user to enter a number/integer and display the number divided by 5
 num = int(input('Enter a number: '))

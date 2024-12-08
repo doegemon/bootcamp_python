@@ -1,0 +1,4 @@
+name, price, quantity, in_stock
+dress, 75.5, 30, True
+shirt, 49.9, 0, False
+shoes, 55.3, 10, True

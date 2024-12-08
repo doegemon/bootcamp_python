@@ -4,7 +4,7 @@ import csv
 path: str = "data/data.csv"
 data: list = []
 
-# This function is kind of a Python API
+# This function is kind of a Python API, and I'm creating a Dictionary from the .csv file with DictReader
 with open(file=path, mode="r", encoding="utf-8") as file: 
   csv_reader: csv.DictReader = csv.DictReader(file)
 

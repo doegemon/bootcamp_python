@@ -1,0 +1,4 @@
+sale_id,name,price,quantity,delivered
+1,dress,75.5,3,True
+2,shirt,49.9,2,False
+3,shoes,55.3,2,True

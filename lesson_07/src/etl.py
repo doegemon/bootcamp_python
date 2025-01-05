@@ -1,29 +1,30 @@
 import csv
 
+
 def read_csv(csv_path: str) -> list[dict]:
     """
     Function that reads a .csv file and returns a list of dictionaries
     """
     sales_list: list[dict] = []
-    
+
     with open(csv_path, mode="r", encoding="utf-8") as file:
         reader = csv.DictReader(file)
         for row in reader:
             sales_list.append(row)
-    
+
     return sales_list
 
 
 def sales_delivered(sales: list[dict]) -> list[dict]:
     """
-    Function that receives the sales list and returns the sales 
+    Function that receives the sales list and returns the sales
     where the product has been delivered
     """
     filtered_list: list[dict] = []
     for sale in sales:
         if sale.get("delivered") == "True":
             filtered_list.append(sale)
-    
+
     return filtered_list
 
 
